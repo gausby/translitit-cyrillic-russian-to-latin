@@ -1,10 +1,10 @@
 {
-    "name": "translitit-cyrilic-russian-to-latin",
+    "name": "translitit-cyrillic-russian-to-latin",
     "version": "0.1.0",
-    "description": "A cyrilic russian to latin transliteration module",
+    "description": "A cyrillic russian to latin transliteration module",
     "author": "Martin Gausby <martin@gausby.dk>",
-    "repository": "git@github.com:gausby/translitit-cyrilic-russian-to-latin.git",
-    "main": "lib/translitit-cyrilic-russian-to-latin.js",
+    "repository": "git@github.com:gausby/translitit-cyrillic-russian-to-latin.git",
+    "main": "lib/translitit-cyrillic-russian-to-latin.js",
     "dependencies": {
         "translitit-engine": "0.1.0"
     },

@@ -2,13 +2,13 @@
 /*jslint maxlen:140*/
 'use strict';
 
-var transliteration = require('../lib/translitit-cyrilic-russian-to-latin'),
+var transliteration = require('../lib/translitit-cyrillic-russian-to-latin'),
     buster = require('buster'),
     assert = buster.assertions.assert,
     refute = buster.assertions.refute
 ;
 
-buster.testCase('A cyrilic russian transliteration', {
+buster.testCase('A cyrillic russian transliteration', {
     'should work with Аa': function(){
         assert.equals(transliteration('Алушта'), 'Alushta');
         assert.equals(transliteration('Андрій'), 'Andrii');
