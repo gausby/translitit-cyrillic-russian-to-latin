@@ -1,6 +1,6 @@
-Russian Cryllic to Latin Transliteration
+Russian Cyrillic to Latin Transliteration
 =================================================
-A JavaScript function that transliterate strings from cryllic russian to latin.
+A JavaScript function that transliterate strings from cyrillic russian to latin.
 
 This project is build using the [translitit-engine][translitit-engine], and its unit tests has been lifted from [Staltec][staltec]'s project called [transliteration.cyr][transliteration.cyr].
 
@@ -15,13 +15,13 @@ The motivation for this project was to test the transliteration engine I created
 ## Installation and Usage
 Add it to your npm-based project by typing the following in your project root.
 
-    npm install translitit-russian-cryllic-to-latin --save
+    npm install translitit-russian-cyrillic-to-latin --save
 
 Now, you can include the transliteration service in your project by including it:
 
-    var translit = require('translitit-russian-cryllic-to-latin');
+    var translit = require('translitit-russian-cyrillic-to-latin');
 
-´translit´ will now be a function, that will transliterate its input.
+`translit` will now be a function, that will transliterate its input.
 
     translit('Борщагівка'); // returns 'Borshchagivka'
 
