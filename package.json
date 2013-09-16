@@ -1,0 +1,24 @@
+{
+    "name": "translitit-cyrilic-russian-to-latin",
+    "version": "0.1.0",
+    "description": "A cyrilic russian to latin transliteration module",
+    "author": "Martin Gausby <martin@gausby.dk>",
+    "repository": "git@github.com:gausby/translitit-cyrilic-russian-to-latin.git",
+    "main": "lib/translitit-cyrilic-russian-to-latin.js",
+    "dependencies": {
+        "translitit-engine": "0.1.0"
+    },
+    "devDependencies": {
+        "grunt": "0.4.1",
+        "grunt-buster": "0.2.1",
+        "grunt-contrib-jshint": "0.6.4",
+        "grunt-contrib-watch": "0.5.3",
+        "grunt-clear": "0.2.1",
+
+        "buster": "0.6.12"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "engine": "*"
+}

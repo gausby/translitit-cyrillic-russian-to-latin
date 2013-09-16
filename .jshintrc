@@ -1,0 +1,11 @@
+{
+    "node": true,
+    "strict": true,
+    "globalstrict": true,
+    "validthis": true,
+    "trailing": true,
+    "indent": 4,
+    "curly": true,
+    "newcap": true,
+    "quotmark": "single"
+}
