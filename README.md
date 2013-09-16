@@ -15,11 +15,11 @@ The motivation for this project was to test the transliteration engine I created
 ## Installation and Usage
 Add it to your npm-based project by typing the following in your project root.
 
-    npm install translitit-russian-cyrillic-to-latin --save
+    npm install translitit-cyrillic-russian-to-latin --save
 
 Now, you can include the transliteration service in your project by including it:
 
-    var translit = require('translitit-russian-cyrillic-to-latin');
+    var translit = require('translitit-cyrillic-russian-to-latin');
 
 `translit` will now be a function, that will transliterate its input.
 
