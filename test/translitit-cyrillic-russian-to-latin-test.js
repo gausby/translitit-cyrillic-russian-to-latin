@@ -4,8 +4,8 @@
 
 var transliteration = require('../lib/translitit-cyrillic-russian-to-latin'),
     buster = require('buster'),
-    assert = buster.assertions.assert,
-    refute = buster.assertions.refute
+    assert = buster.referee.assert,
+    refute = buster.referee.refute
 ;
 
 buster.testCase('A cyrillic russian transliteration', {
