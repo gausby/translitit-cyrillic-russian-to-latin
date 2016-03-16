@@ -1,6 +1,6 @@
 {
     "name": "translitit-cyrillic-russian-to-latin",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A cyrillic russian to latin transliteration module",
     "author": "Martin Gausby <martin@gausby.dk>",
     "repository": "git@github.com:gausby/translitit-cyrillic-russian-to-latin.git",
