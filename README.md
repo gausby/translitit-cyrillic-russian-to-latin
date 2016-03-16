@@ -1,5 +1,7 @@
 Russian Cyrillic to Latin Transliteration
 =================================================
+<strong>Notice</strong>: This project and [translitit-engine][translitit-engine] are looking for a new maintainer. I [Martin Gausby](https://github.com/gausby) spend most of my days having fun with Elixir and that sort of thing. If you find Translitit useful and want to maintain it I will happily grand or transfer maintainer privileges to you or your organization. Thanks.
+
 A JavaScript function that transliterate strings from cyrillic russian to latin.
 
 This project is build using the [translitit-engine][translitit-engine], and its unit tests has been lifted from [Staltec][staltec]'s project called [transliteration.cyr][transliteration.cyr].
